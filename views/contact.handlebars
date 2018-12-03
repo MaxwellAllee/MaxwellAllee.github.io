@@ -1,0 +1,47 @@
+<div class="backg h-100 ">
+    <div class="container  p-0 w-100 mt-5">
+        <div class="row w-100  m-0">
+            <div class="col-md-10 mt-5 pb-3 p-0 m-0 bg-white border ">
+                <H3 class="text-dark m-2   ml-4">
+                    Contact
+                </H3>
+                <HR class="mx-4">
+                <div class="mx-4 text-secondary">
+                    Name
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" id="name" class="form-control name rounded-0 mx-4" placeholder="John Smith">
+                </div>
+                <div class="mx-4 text-secondary">
+                    Email
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" id="email" class="form-control rounded-0 mx-4" placeholder="example@gmail.com">
+                </div>
+                <div class="mx-4 text-secondary">
+                    Message
+                </div>
+                <div class="input-group mb-3">
+                    <textarea class="form-control" id="body" rounded-0 mx-4" rows="8"></textarea>
+                </div>
+                <button type="button" id="submit" class="btn btn-dark float-right px-3 mr-4">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/email.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div class="modal back" id="validate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h3>
+                    <p id="valMessage" class="text-center"></p>
+                </h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="nothing" class="btn closesBtn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

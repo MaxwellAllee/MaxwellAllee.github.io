@@ -1,0 +1,137 @@
+
+<div class="tparallax"></div>
+<div class="container m-0 p-0 full-width">
+    <div class="row w-100 p-0 m-0">
+        <div class="col- w-100 full-width p-0 m-0 bg-white border ">
+            <H3 class="text-dark m-2  pl-4">
+                Project Sites
+            </H3>
+            <HR class="mx-6">
+            <div class="container full-width ">
+
+                <div class="row w-100 m-0">
+                    <div class="col-sm-1 p-0"></div>
+                    {{#each websites }}
+                    {{#if project}}
+                    <div class="col-lg-3 p-0 mx-3">
+                        <div class="postion-relative"></div>
+
+                        <a href="{{this.url}}" class="m-0">
+                            <img height="200" width="250" src="/images/{{this.photo}}" class=" mb-4 mx-4 float-left"
+                                alt="{{this.title}}">
+                            <h4 class="text-white p-1 text-center text-nowrap bg-dark m-0  marg position-absolute">
+                                {{this.title}}
+                            </h4>
+                        </a>
+
+
+                    </div>
+                    {{/if}}
+                    {{/each}}
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mparallax"></div>
+<div class="container m-0 p-0 full-width">
+    <div class="row w-100 p-0 m-0">
+        <div class="col-md w-100 full-width p-0 m-0 bg-white border ">
+            <H3 class="text-dark m-2  pl-4">
+                Front End Sites
+            </H3>
+            <HR class="mx-6">
+            <div class="container full-width ">
+
+                <div class="row w-100 m-0">
+                    {{#each websites }}
+                    {{#if html}}
+                    <div class="col-xl-1 p-0 ml-3">
+                        <div class="postion-relative"></div>
+
+                        <a href="{{this.url}}" class="m-0">
+                            <img height="200" width="250" src="/images/{{this.photo}}" class=" mb-4 mx-4 float-left"
+                                alt="{{this.title}}">
+                            <h4 class="text-white p-1 text-center text-nowrap bg-dark m-0  marg position-absolute">
+                                {{this.title}}
+                            </h4>
+                        </a>
+
+
+                    </div>
+                    <div class="col-sm-1 p-0 mx-3"></div>
+                    {{/if}}
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="parallax"></div>
+<div class="container m-0 p-0 full-width">
+    <div class="row w-100 p-0 m-0">
+        <div class="col-md w-100 full-width p-0 m-0 bg-white border ">
+            <H3 class="text-dark m-2  pl-4">
+                Full Stack Websites
+            </H3>
+            <HR class="mx-6">
+            <div class="container full-width ">
+
+                <div class="row w-100 m-0">
+                    <div class="col-md-1 p-0"></div>
+                    {{#each websites }}
+                    {{#if database}}
+                   <div class="col-lg-4 m-2 p-0">
+                        <div class="postion-relative"></div>
+
+                        <a href="{{this.url}}" class="my-2">
+                            <img height="200" width="250" src="/images/{{this.photo}}" class=" mb-4 mx-4 float-left"
+                                alt="{{this.title}}">
+                            <h4 class="text-white p-1 text-center text-nowrap bg-dark m-0  marg position-absolute">
+                                {{this.title}}
+                            </h4>
+                        </a>
+                    </div>
+                    {{/if}}
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="parallax4"></div>
+<div class="container m-0 p-0 full-width">
+    <div class="row w-100 p-0 m-0">
+        <div class="col-md w-100 full-width p-0 m-0 bg-white border ">
+            <H3 class="text-dark m-2  pl-4">
+                Command Line
+            </H3>
+            <HR class="mx-6">
+            <div class="container full-width ">
+
+                <div class="row w-100 m-0">
+                    <div class="col-md-1 p-0"></div>
+                    {{#each websites }}
+                    {{#if cli}}
+                    <div class="col-md-2 mx-5 p-0">
+                        <div class="postion-relative"></div>
+
+                        <a href="{{this.url}}" class="m-0">
+                            <img height="200" width="250" src="/images/{{this.photo}}" class=" mb-4 mx-4 float-left"
+                                alt="{{this.title}}">
+                            <h4 class="text-white p-1 text-center text-nowrap bg-dark m-0  marg position-absolute">
+                                {{this.title}}
+                            </h4>
+                        </a>
+
+                    </div>
+                    <div class="col-md-1 p-0"></div>
+                    {{/if}}
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="parallax5"></div>

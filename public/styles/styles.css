@@ -1,0 +1,100 @@
+.list-group-item {
+  line-height: 2.5;
+}
+body, html {
+  height: 100%;
+  background-color: lightgray
+
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('../images/bkg3.PNG');
+
+  /* Full height */
+  height: 30%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mparallax {
+  /* The image used */
+  background-image: url('../images/bkg8.PNG');
+
+  /* Full height */
+  height: 30%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  /* The image used */
+  background-image: url('../images/bkg6.PNG');
+
+  /* Full height */
+  height: 30%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5 {
+  /* The image used */
+  background-image: url('../images/bkg2.PNG');
+
+  /* Full height */
+  height: 60%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tparallax {
+  /* The image used */
+  background-image: url('../images/bkg.PNG');
+
+  /* Full height */
+  height: 25%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backg {
+  background-image: url('../images/background.PNG');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+};
+.full-width-div {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.full-width{
+  min-width: 100%;
+  width: 100%;
+  left: 0;
+}
+.marg {
+  top: 65%;
+  left: 25px;
+  width: 249px;
+  height: 50px;
+}
+.back{
+  background-color:rgba(247, 247, 247, 0.5)
+}
