@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "root",
+    "password": "Mountain",
     "database": "programdb",
     "host": "localhost",
     "dialect": "mysql"

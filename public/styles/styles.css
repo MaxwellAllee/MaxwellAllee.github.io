@@ -6,7 +6,13 @@ body, html {
   background-color: lightgray
 
 }
-
+a{   
+  color: white;
+}
+a:hover{   
+  text-decoration: none;
+  color: white;
+}
 .parallax {
   /* The image used */
   background-image: url('../images/bkg3.PNG');
