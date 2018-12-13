@@ -28,7 +28,11 @@ module.exports = function(sequelize, DataTypes) {
     },
     photo:{
       type: DataTypes.STRING
-    }
+    },
+    github:{
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   });
   return Portfolio;
 };
